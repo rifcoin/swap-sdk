@@ -1,6 +1,6 @@
-import { BigintIsh, Token } from '@uniswap/sdk-core'
+import { BigintIsh, Token } from '@rifcoin/sdk-core'
 import { Interface } from '@ethersproject/abi'
-import { abi } from '@uniswap/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json'
+import { abi } from '@rifcoin/toolkit/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json'
 import { toHex } from './utils'
 
 export interface StandardPermitArguments {

@@ -1,7 +1,7 @@
-import { BigintIsh, Token, validateAndParseAddress } from '@uniswap/sdk-core'
+import { BigintIsh, Token, validateAndParseAddress } from '@rifcoin/sdk-core'
 import { MethodParameters, toHex } from './utils/calldata'
 import { defaultAbiCoder, Interface } from '@ethersproject/abi'
-import { abi } from '@uniswap/v3-staker/artifacts/contracts/UniswapV3Staker.sol/UniswapV3Staker.json'
+import { abi } from '@rifcoin/staker/artifacts/contracts/RifainSwapStaker.sol/RifainSwapStaker.json'
 import { Pool } from './entities'
 import { Multicall } from './multicall'
 

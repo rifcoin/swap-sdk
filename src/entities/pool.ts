@@ -1,4 +1,4 @@
-import { BigintIsh, Price, Token, CurrencyAmount } from '@uniswap/sdk-core'
+import { BigintIsh, Price, Token, CurrencyAmount } from '@rifcoin/sdk-core'
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
 import { FACTORY_ADDRESS, FeeAmount, TICK_SPACINGS } from '../constants'

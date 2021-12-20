@@ -6,14 +6,14 @@ import {
   validateAndParseAddress,
   Currency,
   NativeCurrency
-} from '@uniswap/sdk-core'
+} from '@rifcoin/sdk-core'
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
 import { Position } from './entities/position'
 import { ONE, ZERO } from './internalConstants'
 import { MethodParameters, toHex } from './utils/calldata'
 import { Interface } from '@ethersproject/abi'
-import { abi } from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
+import { abi } from '@rifcoin/toolkit/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 import { PermitOptions, SelfPermit } from './selfPermit'
 import { ADDRESS_ZERO } from './constants'
 import { Pool } from './entities'
@@ -376,7 +376,7 @@ export abstract class NonfungiblePositionManager {
       NonfungiblePositionManager.INTERFACE.encodeFunctionData('decreaseLiquidity', [
         {
           tokenId,
-          liquidity: toHex(partialPosition.liquidity),
+          disponible: toHex(partialPosition.liquidity),
           amount0Min: toHex(amount0Min),
           amount1Min: toHex(amount1Min),
           deadline

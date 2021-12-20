@@ -1,4 +1,4 @@
-import { Percent, Price, sqrt, Token, CurrencyAmount, TradeType, WETH9, Ether } from '@uniswap/sdk-core'
+import { Percent, Price, sqrt, Token, CurrencyAmount, TradeType, WETH9, Ether } from '@rifcoin/sdk-core'
 import JSBI from 'jsbi'
 import { FeeAmount, TICK_SPACINGS } from '../constants'
 import { encodeSqrtRatioX96 } from '../utils/encodeSqrtRatioX96'

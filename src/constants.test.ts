@@ -1,6 +1,6 @@
 import { POOL_INIT_CODE_HASH } from './constants'
 
-import { bytecode } from '@uniswap/v3-core/artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json'
+import { bytecode } from '@rifcoin/swap/artifacts/contracts/RifainSwap.sol/RifainSwap.json'
 import { keccak256 } from '@ethersproject/solidity'
 
 // this _could_ go in constants, except that it would cost every consumer of the sdk the CPU to compute the hash
